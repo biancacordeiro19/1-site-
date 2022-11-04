@@ -1,0 +1,77 @@
+.header{
+    background-color:black;
+}
+
+.header class {
+    background: red;
+}
+.header_area{
+    padding: 20px;
+}
+.logo{
+    width: 150px;
+}
+   
+.banner{max-width: 200%}    
+}
+.footer{
+    margin-top: 20px;
+    background: rgb(red);
+    color: white;
+}
+.footer_area{
+    padding: 20px;
+}
+.banner img{ max-width: 100%
+} 
+
+.main{
+    background-color:silver;
+}
+
+.footer {
+    background-color:rgb(143, 142, 142);
+}
+
+.footer class{
+  background: silver;
+}
+/*Celular*/
+@media screen and ( max-width:600px){
+    nav li{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    footer {
+        display: none;
+    }
+}
+/*Tablet*/
+@media screen and ( max-width:768px){
+    section, aside{
+        width: 100%;
+        padding: 0%;
+        img {
+            width: 100%;
+            }
+    }
+}
+
+/*Computador*/
+@media screen (min-width:1024px;{
+    .full-width-img {
+        margin: auto;
+        width: 90%;
+        }
+    }    
+
+    @media only screen and (max-device-width: 900px) {
+        /* .menu { width:100%; } */
+    }
+    @media only screen and (max-device-width: 900px) {
+        /* .menu { width:600px; } */
+        }
+        @media only screen and (max-device-width: 700px) {
+            /* .menu { width:400px; } */
+            }
